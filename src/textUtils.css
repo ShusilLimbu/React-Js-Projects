@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+/* header component */
+header{
+    border:2px solid green;
+    border-radius: 5px;
+    max-height: 100px;
+    padding:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
+    background-color: green;
+}
+header h1{
+    font-size: 40px;
+}
+
+/* navbar componet */
+
+nav{
+    height: 80px;
+    border:2px solid black;
+    border-radius: 5px;
+    margin:2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10px;
+}
+nav p{
+    font-size: 25px;
+    font-style: bold;
+    margin-right: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul{
+    display:flex;
+    justify-content: space-between;
+}
+nav ul li{
+    border:1px solid green;
+    padding:5px;
+    margin:0 10px 0 10px;
+    border-radius:5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Main Component */
+.containner-main{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+
+}
+.containner-main textarea{
+    margin:5px;
+    min-width:400px;
+    min-height:300px;
+    background-color: blanchedalmond;
+    padding:10px;
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius:5px;
+}
+.wrap-button{
+    display:flex;
+    justify-content: space-between;
+
+}
+.wrap-button button{
+    margin:10px;
+    padding:5px;
+    font-weight: bold;
+    background-color: green;
+    border:1px solid green;
+    border-radius: 5px;
+}
+.wrap-button button:hover{
+    margin:10px;
+    padding:5px;
+    font-weight: bold;
+    background-color: rgb(150, 231, 150);
+    border:1px solid green;
+    border-radius: 8px;
+}
+.wrap-button input{
+    width:25px;
+    height:25px;
+    border-radius: 4px;
+    margin:10px;
+    text-align:center;  
+}
+.containner-main p{
+    font-size: 15px;
+    font-weight: bolder;
+}
+/* Footer Components */
+.containner-footer{
+    height: 80px;
+    border:2px solid black;
+    border-radius: 5px;
+    margin:2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color:green;
+}
